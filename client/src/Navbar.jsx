@@ -31,8 +31,11 @@ const Navbar = () => {
       {open && (
         <div className="absolute top-16 left-[433px] bg-white shadow-lg rounded-lg p-4 w-48">
           <ul className="space-y-2">
+            <li><Link to="/top-management" className="block hover:text-indigo-600">TopManagement</Link></li>
+            <li><Link to="/business-head" className="block hover:text-indigo-600">BusinessHead</Link></li>
             <li><Link to="/rm" className="block hover:text-indigo-600">RMDashboard</Link></li>
             <li><Link to="/rmh" className="block hover:text-indigo-600">RMHeadDashboard</Link></li>
+            
           </ul>
         </div>
       )}
